@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "run server",
+            "name": "Runserver",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}\\manage.py",
+            "program": "${workspaceFolder}/manage.py",
             "args": [
                 "runserver"
             ],
@@ -16,26 +16,26 @@
             "justMyCode": true
         },
         {
-            "name": "makemigrations",
+            "name": "Makemigrations",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}\\manage.py",
+            "program": "${workspaceFolder}/manage.py",
             "args": [
-                "runserver"
+                "makemigrations"
             ],
             "django": true,
             "justMyCode": true
         },
         {
-            "name": "migrate",
+            "name": "Migrate",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}\\manage.py",
+            "program": "${workspaceFolder}/manage.py",
             "args": [
-                "runserver"
+                "migrate"
             ],
             "django": true,
             "justMyCode": true
-        },
+        }
     ]
 }
